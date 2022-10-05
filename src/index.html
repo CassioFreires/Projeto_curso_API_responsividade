@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../dist/output.css">
+    <link rel="stylesheet" href="./input.css">
+    <title>Projeto 9</title>
+</head>
+<body class="sm:bg-slate-500 md:bg-red-400 lg:bg-amber-50">
+    <header class="bg-slate-600 h-16  indigo-600 flex justify-right items-center">
+        <nav class="flex">
+            <div class="sm:hidden block ml-2" id="bars">
+                <a href="#">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+                </a>
+            </div>
+            <ul class="block hidden sm:flex" id="menu">
+                <li class="text-2xl ml-1 mr-9 text-white md:hover"><a href="#">Home</a></li>
+                <li class="text-2xl mr-9 text-white" ><a href="#">Dogs</a></li>
+                <li class="text-2xl mr-9 text-white"><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="grid sm:grid-cols-1 md:grid-cols-2 ">
+            <article class="p-2 sm:p-2 sm:flex sm:justify-center mt-9 md:mt-20" id="article">
+                <img class=" sm:w-2/5 md:w-full" alt="" id="foto-cao">
+            </article>
+            <article>
+                <header class="pt-5">
+                    <h1 id="subtitle-info-cao" class=" block text-center text-slate-900 text-2xl font-bold mb-6 mt-4"><u></u></h1>
+                </header>
+                <p id="nome-cao" class="border-dashed border-2"></p>
+                <p id="tamanho-cao" class="border-dashed border-2"></p>
+                <p id="peso-cao" class="border-dashed border-2"></p>
+                <p id="tempo-medio-vida-cao"  class="border-dashed border-2"></p>
+            </article>
+        </section>
+  
+    </main>
+    <script src="js/main.js"></script>
+</body>
+</html>
